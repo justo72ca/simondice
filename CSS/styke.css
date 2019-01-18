@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	background:#dedede;
 	display: flex;
-	alignc-items: cente;
+	align-items: center;
 	height: 100vh;
 }
 .gameboard{
@@ -16,7 +16,7 @@ body{
 }
 .color{
 	width: 50%;
-	height: 50%
+	height: 50%;
 	display: inline-block;
 }
 .left{
@@ -58,8 +58,8 @@ body{
 	color:#FFF;
 	font-size: 2.5rem;
 	position: absolute;
-	top: cal(50% - 50%);
-	left: cal (50% - 50%);	
+	top: calc(50% - 50px);
+	left: calc(50% - 200px);	
 }
 .hide{
 	display: none;
